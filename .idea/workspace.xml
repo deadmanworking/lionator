@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80bd364b-b9b0-4a19-8c25-c3b3984bbd29" name="Changes" comment="Create initial database script. Creates tables and populates with initial data.">
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/deadmanworking/Datasheet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/deadmanworking/DatasheetInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/deadmanworking/Model.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/deadmanworking/Unit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/deadmanworking/Unit.java" afterDir="false" />
+    <list default="true" id="80bd364b-b9b0-4a19-8c25-c3b3984bbd29" name="Changes" comment="Delete unused files (for now). Basic implementation of Unit.java">
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/deadmanworking/dao/JdbcUnitDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/deadmanworking/dao/UnitDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -99,7 +99,7 @@
       <updated>1707583531713</updated>
       <workItem from="1707583532838" duration="663000" />
       <workItem from="1707663877141" duration="2649000" />
-      <workItem from="1708713852303" duration="5611000" />
+      <workItem from="1708713852303" duration="6668000" />
     </task>
     <task id="LOCAL-00001" summary="Create initial database script. Creates tables and populates with initial data.">
       <option name="closed" value="true" />
@@ -133,7 +133,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708722133884</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Delete unused files (for now). Basic implementation of Unit.java">
+      <option name="closed" value="true" />
+      <created>1708722604130</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1708722604130</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,6 +160,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create initial database script. Creates tables and populates with initial data." />
-    <option name="LAST_COMMIT_MESSAGE" value="Create initial database script. Creates tables and populates with initial data." />
+    <MESSAGE value="Delete unused files (for now). Basic implementation of Unit.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Delete unused files (for now). Basic implementation of Unit.java" />
   </component>
 </project>

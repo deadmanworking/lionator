@@ -47,7 +47,7 @@ CREATE TABLE ability (
     ability_id serial,
     name varchar(80) NOT NULL,
     CONSTRAINT pk_ability_ability_id PRIMARY KEY (ability_id)
-)
+);
 
 INSERT INTO unit (name, movement, toughness, save, wounds, leadership, objective_control, invulnerable_save, warlord)
 VALUES ('Lion El''Jonson', 8, 9, 2, 10, 5, 4, 3, true);
